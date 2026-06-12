@@ -923,6 +923,7 @@ export const products: Product[] = [
     condition: 'Novo (lacrado)',
     fullSet: true,
     price: null,
+    hidden: true, // vendido
     prontaEntrega: true,
     images: [
       '/products/seiko-chronograph-verde-ssb481p1.png',
@@ -1059,6 +1060,7 @@ export const products: Product[] = [
     condition: 'Novo (lacrado)',
     fullSet: true,
     price: null,
+    hidden: true, // vendido
     prontaEntrega: true,
     images: ['/products/orient-kamasu-diver-preto.png'],
     description:
@@ -1085,6 +1087,7 @@ export const products: Product[] = [
     condition: 'Novo (lacrado)',
     fullSet: true,
     price: null,
+    hidden: true, // vendido
     prontaEntrega: true,
     images: ['/products/seiko-5-sports-azul-skx.png'],
     description:
