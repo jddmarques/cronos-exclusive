@@ -28,6 +28,7 @@ export interface Product {
   description: string
   specs: ProductSpec
   featured: boolean
+  hidden?: boolean // true = produto oculto do site (ex: aguardando fotos sem preço na imagem)
 }
 
 export const products: Product[] = [
@@ -651,6 +652,7 @@ export const products: Product[] = [
     condition: 'Novo (lacrado)',
     fullSet: true,
     price: null,
+    hidden: true,
     images: ['/products/orient-classico-calendario-lua.png'],
     description:
       'Automático mecânico com mostrador champanhe e numerais romanos. Calendário multi-ano com sub-mostradores e fase da lua tornam este Orient Clássico uma das maiores relações custo-benefício em dress watches automáticos.',
@@ -675,6 +677,7 @@ export const products: Product[] = [
     condition: 'Novo (lacrado)',
     fullSet: true,
     price: null,
+    hidden: true,
     images: ['/products/orient-bambino-automatico.png'],
     description:
       'Dress watch automático da linha Bambino com mostrador azul escuro e caixa dourada. Pulseira em couro azul marinho, fase da lua e calendário completo. Uma das poucas complicações românticas disponíveis nessa faixa de preço.',
@@ -700,6 +703,7 @@ export const products: Product[] = [
     condition: 'Novo (lacrado)',
     fullSet: true,
     price: null,
+    hidden: true,
     images: ['/products/orient-sport-ray-ii-all-black.png'],
     description:
       'Diver automático da linha Sport Ray II em revestimento PVD total preto. Resistência a 200m, calibre F6922 e reserva de 40 horas. Presença imponente no pulso com acabamento stealth impecável.',
@@ -728,6 +732,7 @@ export const products: Product[] = [
     condition: 'Novo (lacrado)',
     fullSet: true,
     price: null,
+    hidden: true,
     images: ['/products/tissot-prx-ice-blue.png'],
     description:
       'O PRX é o relógio mais icônico da Tissot nos últimos anos — design integrado anos 70 com mostrador azul gelo sunburst e acabamento escovado. Quartzo suíço, safira e 100m. Referência indiscutível em elegância acessível.',
@@ -755,6 +760,7 @@ export const products: Product[] = [
     condition: 'Novo (lacrado)',
     fullSet: true,
     price: null,
+    hidden: true,
     images: ['/products/seiko-5-sports-champanhe-nato.png'],
     description:
       'Field watch automático com mostrador champanhe e pulseira NATO em nylon areia. Leitura limpa com numerais arábicos e calendário dia/data. Combinação clássica de campo que nunca sai de moda.',
@@ -780,6 +786,7 @@ export const products: Product[] = [
     condition: 'Novo (lacrado)',
     fullSet: true,
     price: null,
+    hidden: true,
     images: ['/products/seiko-5-sports-azul-sunburst-diver.png'],
     description:
       'Diver automático com mostrador azul sunburst e bezel rotativo unidirecional azul. Bracelete Oyster em aço inox. Visual totalmente coeso e uma das configurações mais procuradas da linha 5 Sports atual.',
@@ -805,6 +812,7 @@ export const products: Product[] = [
     condition: 'Novo (lacrado)',
     fullSet: true,
     price: null,
+    hidden: true,
     images: ['/products/seiko-5-sports-all-black-pvd.png'],
     description:
       'Edição all-black em revestimento PVD total: caixa, bracelete e bezel preto fosco. Mostrador preto com marcadores de hora em relevo. Presença discreta e intensa ao mesmo tempo — referência no estilo stealth.',
@@ -830,6 +838,7 @@ export const products: Product[] = [
     condition: 'Novo (lacrado)',
     fullSet: true,
     price: null,
+    hidden: true,
     images: ['/products/seiko-5-sports-preto-oyster.png'],
     description:
       'Diver clássico com mostrador preto e bracelete Oyster em aço polido/escovado. Bezel unidirecional preto. O ponto de entrada perfeito para quem quer um automático esportivo sem peso visual excessivo.',
@@ -855,6 +864,7 @@ export const products: Product[] = [
     condition: 'Novo (lacrado)',
     fullSet: true,
     price: null,
+    hidden: true,
     images: ['/products/seiko-5-sports-automatico-black.png'],
     description:
       'Seiko 5 automático clássico com mostrador preto fosco e marcadores aplicados. Calendário duplo (dia/data) e movimento automático de 21 jewels. A entrada mais acessível do portfólio para quem quer um automático Seiko no pulso.',
@@ -879,6 +889,7 @@ export const products: Product[] = [
     condition: 'Novo (lacrado)',
     fullSet: true,
     price: null,
+    hidden: true,
     images: ['/products/seiko-5-sports-turquesa-srpd45k1.png'],
     description:
       'Diver automático com mostrador turquesa vibrante e calendário integrado multilíngue. Bracelete Oyster e bezel unidirecional. Uma das colorações mais reconhecíveis da linha 5 Sports — impossível passar despercebido.',
@@ -904,6 +915,7 @@ export const products: Product[] = [
     condition: 'Novo (lacrado)',
     fullSet: true,
     price: null,
+    hidden: true,
     images: ['/products/seiko-chronograph-verde-ssb481p1.png'],
     description:
       'Cronógrafo a quartzo com mostrador verde e detalhes prateados sobre bracelete de aço com fecho déployant. Aro tachymeter externo. O verde elegante nessa configuração é uma das propostas mais sofisticadas entre cronógrafos acessíveis.',
@@ -931,6 +943,7 @@ export const products: Product[] = [
     condition: 'Novo (lacrado)',
     fullSet: true,
     price: null,
+    hidden: true,
     images: ['/products/citizen-tsuyosa-vermelho.png'],
     description:
       'Tsuyosa automático com mostrador vermelho sunburst e calendário integrado. Caixa e bracelete em aço inoxidável com acabamento polido. A combinação de vermelho com aço puro é uma das mais impactantes do catálogo.',
@@ -949,18 +962,22 @@ export const products: Product[] = [
   },
 ]
 
+export const visibleProducts = products.filter((p) => !p.hidden)
+
+export const visibleBrandNames = new Set(visibleProducts.map((p) => p.brand.toLowerCase()))
+
 export function getProductBySlug(slug: string): Product | undefined {
-  return products.find((p) => p.slug === slug)
+  return visibleProducts.find((p) => p.slug === slug)
 }
 
 export function getRelatedProducts(product: Product, limit = 4): Product[] {
-  return products
+  return visibleProducts
     .filter((p) => p.brand === product.brand && p.id !== product.id)
     .slice(0, limit)
 }
 
 export function getFeaturedProducts(limit = 4): Product[] {
-  return products.filter((p) => p.featured).slice(0, limit)
+  return visibleProducts.filter((p) => p.featured).slice(0, limit)
 }
 
 export function formatPrice(price: number | null): string {

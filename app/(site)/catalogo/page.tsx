@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { X } from 'lucide-react'
 import Container from '@/components/layout/Container'
 import ProductCard from '@/components/catalogo/ProductCard'
-import { products } from '@/lib/products'
+import { visibleProducts, visibleBrandNames } from '@/lib/products'
 import { brands } from '@/lib/brands'
 
 export const metadata: Metadata = {
@@ -23,8 +23,8 @@ export default function CatalogoPage({ searchParams }: Props) {
     : null
 
   const produtosFiltrados = marcaAtiva
-    ? products.filter((p) => p.brand.toLowerCase() === marcaAtiva.name.toLowerCase())
-    : products
+    ? visibleProducts.filter((p) => p.brand.toLowerCase() === marcaAtiva.name.toLowerCase())
+    : visibleProducts
 
   return (
     <div className="pt-20 md:pt-28">
@@ -39,7 +39,7 @@ export default function CatalogoPage({ searchParams }: Props) {
               {marcaAtiva ? (
                 <>{marcaAtiva.name} — {produtosFiltrados.length} {produtosFiltrados.length === 1 ? 'peça' : 'peças'}</>
               ) : (
-                <>{products.length} peças disponíveis</>
+                <>{visibleProducts.length} peças disponíveis</>
               )}
             </h1>
 
@@ -56,7 +56,7 @@ export default function CatalogoPage({ searchParams }: Props) {
 
           {/* Filtros de marca */}
           <div className="flex flex-wrap gap-2 mt-6">
-            {brands.map((brand) => (
+            {brands.filter((b) => visibleBrandNames.has(b.name.toLowerCase())).map((brand) => (
               <Link
                 key={brand.slug}
                 href={`/catalogo?marca=${brand.slug}`}

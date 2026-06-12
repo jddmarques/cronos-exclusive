@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
-import { products, getProductBySlug, formatPrice } from '@/lib/products'
+import { visibleProducts, getProductBySlug, formatPrice } from '@/lib/products'
 import Container from '@/components/layout/Container'
 import Galeria from '@/components/produto/Galeria'
 import InfoPainel from '@/components/produto/InfoPainel'
@@ -13,7 +13,7 @@ interface PageProps {
 
 // Gera rotas estáticas para todos os produtos
 export async function generateStaticParams() {
-  return products.map((p) => ({ slug: p.slug }))
+  return visibleProducts.map((p) => ({ slug: p.slug }))
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {

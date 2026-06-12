@@ -4,9 +4,11 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { useScrollReveal } from '@/hooks/useScrollReveal'
 import { brands } from '@/lib/brands'
+import { visibleBrandNames } from '@/lib/products'
 
 export default function FaixaMarcas() {
   const { ref, visible } = useScrollReveal()
+  const marcasVisiveis = brands.filter((b) => visibleBrandNames.has(b.name.toLowerCase()))
 
   return (
     <section
@@ -22,7 +24,7 @@ export default function FaixaMarcas() {
 
       <div className="overflow-x-auto scrollbar-hide">
         <ul className="flex items-center justify-start md:justify-center gap-12 md:gap-16 px-6 md:px-12 lg:px-20 min-w-max md:min-w-0">
-          {brands.map((brand) => (
+          {marcasVisiveis.map((brand) => (
             <li key={brand.slug}>
               <Link
                 href={`/catalogo?marca=${brand.slug}`}
