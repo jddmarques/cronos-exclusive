@@ -1169,7 +1169,7 @@ export const products: Product[] = [
     condition: 'Como novo',
     fullSet: false,
     price: null,
-    prontaEntrega: true,
+    byOrder: true,
     images: ['/products/venezianico-redentore-bellanotte.png'],
     description:
       'A peça mais rara do estoque: automático italiano com mostrador artístico off-center, combinando aventurina, madrepérola e baixos-relevos em latão rodiado retratando o horizonte de Veneza sob um céu estrelado. Caixa de 40mm em aço 316L, cristal de safira com antirreflexo e pulseira de couro italiano. Peça de colecionador para quem quer sair do óbvio.',
