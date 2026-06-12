@@ -30,6 +30,7 @@ export interface Product {
   featured: boolean
   hidden?: boolean // true = produto oculto do site (ex: aguardando fotos sem preço na imagem)
   prontaEntrega?: boolean // true = peça em estoque físico em Fortaleza, disponível para retirada/entrega imediata
+  byOrder?: boolean // true = peça do estoque pronta entrega já vendida; nova unidade disponível apenas por encomenda
 }
 
 export const products: Product[] = [
@@ -678,7 +679,7 @@ export const products: Product[] = [
     condition: 'Novo (lacrado)',
     fullSet: true,
     price: null,
-    prontaEntrega: true,
+    byOrder: true,
     images: [
       '/products/orient-bambino-automatico.png',
       '/products/orient-bambino-automatico-2.png',
@@ -1114,7 +1115,7 @@ export const products: Product[] = [
     condition: 'Como novo',
     fullSet: false,
     price: null,
-    prontaEntrega: true,
+    byOrder: true,
     images: [
       '/products/seiko-5-automatic-azul-7s26.png',
       '/products/seiko-5-automatic-azul-7s26-2.png',

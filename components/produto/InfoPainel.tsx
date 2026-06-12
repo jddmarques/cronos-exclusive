@@ -44,13 +44,18 @@ export default function InfoPainel({ product }: InfoPainelProps) {
             Full set
           </span>
         )}
+        {product.byOrder && (
+          <span className="font-inter text-[10px] tracking-[0.12em] uppercase text-[#C9A961] border border-[rgba(201,169,97,0.4)] px-3 py-1.5">
+            Por encomenda
+          </span>
+        )}
       </div>
 
       {/* Preço */}
       <div className="mb-10">
         {isConsulta ? (
           <p className="font-inter text-[10px] tracking-[0.2em] uppercase text-gray-mid mb-1">
-            Sob consulta
+            {product.byOrder ? 'Disponível por encomenda' : 'Sob consulta'}
           </p>
         ) : (
           <>

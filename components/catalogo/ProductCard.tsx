@@ -37,6 +37,11 @@ export default function ProductCard({ product }: ProductCardProps) {
             <span className="font-inter text-[9px] tracking-[0.12em] uppercase text-[#c8c0b4] bg-black/75 px-2 py-1 backdrop-blur-sm">
               {product.condition}
             </span>
+            {product.byOrder && (
+              <span className="font-inter text-[9px] tracking-[0.12em] uppercase text-[#C9A961] bg-black/75 px-2 py-1 backdrop-blur-sm">
+                Por encomenda
+              </span>
+            )}
           </div>
 
           {product.fullSet && (
@@ -73,7 +78,9 @@ export default function ProductCard({ product }: ProductCardProps) {
           <p className="font-inter text-[10px] tracking-[0.18em] uppercase text-[#9a9088] group-hover:text-[#C9A961] transition-colors duration-300">
             {product.price !== null
               ? new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(product.price)
-              : 'Consultar peça →'}
+              : product.byOrder
+                ? 'Sob encomenda →'
+                : 'Consultar peça →'}
           </p>
         </div>
       </div>
