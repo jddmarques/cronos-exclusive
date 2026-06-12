@@ -889,7 +889,6 @@ export const products: Product[] = [
     condition: 'Novo (lacrado)',
     fullSet: true,
     price: null,
-    hidden: true,
     images: ['/products/seiko-5-sports-turquesa-srpd45k1.png'],
     description:
       'Diver automático com mostrador turquesa vibrante e calendário integrado multilíngue. Bracelete Oyster e bezel unidirecional. Uma das colorações mais reconhecíveis da linha 5 Sports — impossível passar despercebido.',
