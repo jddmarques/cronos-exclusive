@@ -50,6 +50,7 @@ export default function Navbar() {
           {/* Desktop nav */}
           <div className="hidden md:flex items-center gap-10">
             <NavLink href="/catalogo">Coleção</NavLink>
+            <NavLink href="/pronta-entrega">Pronta Entrega</NavLink>
             <NavLink href="/#sobre">Sobre</NavLink>
             <a
               href={buildGenericWhatsAppLink()}
@@ -79,6 +80,9 @@ export default function Navbar() {
             <div className="flex flex-col py-8 gap-6">
               <MobileNavLink href="/catalogo" onClick={() => setMenuOpen(false)}>
                 Coleção
+              </MobileNavLink>
+              <MobileNavLink href="/pronta-entrega" onClick={() => setMenuOpen(false)}>
+                Pronta Entrega
               </MobileNavLink>
               <MobileNavLink href="/#sobre" onClick={() => setMenuOpen(false)}>
                 Sobre

@@ -29,6 +29,7 @@ export interface Product {
   specs: ProductSpec
   featured: boolean
   hidden?: boolean // true = produto oculto do site (ex: aguardando fotos sem preço na imagem)
+  prontaEntrega?: boolean // true = peça em estoque físico em Fortaleza, disponível para retirada/entrega imediata
 }
 
 export const products: Product[] = [
@@ -677,8 +678,12 @@ export const products: Product[] = [
     condition: 'Novo (lacrado)',
     fullSet: true,
     price: null,
-    hidden: true,
-    images: ['/products/orient-bambino-automatico.png'],
+    prontaEntrega: true,
+    images: [
+      '/products/orient-bambino-automatico.png',
+      '/products/orient-bambino-automatico-2.png',
+      '/products/orient-bambino-automatico-3.png',
+    ],
     description:
       'Dress watch automático da linha Bambino com mostrador azul escuro e caixa dourada. Pulseira em couro azul marinho, fase da lua e calendário completo. Uma das poucas complicações românticas disponíveis nessa faixa de preço.',
     specs: {
@@ -760,8 +765,12 @@ export const products: Product[] = [
     condition: 'Novo (lacrado)',
     fullSet: true,
     price: null,
-    hidden: true,
-    images: ['/products/seiko-5-sports-champanhe-nato.png'],
+    prontaEntrega: true,
+    images: [
+      '/products/seiko-5-sports-champanhe-nato.png',
+      '/products/seiko-5-sports-champanhe-nato-2.png',
+      '/products/seiko-5-sports-champanhe-nato-3.png',
+    ],
     description:
       'Field watch automático com mostrador champanhe e pulseira NATO em nylon areia. Leitura limpa com numerais arábicos e calendário dia/data. Combinação clássica de campo que nunca sai de moda.',
     specs: {
@@ -914,8 +923,11 @@ export const products: Product[] = [
     condition: 'Novo (lacrado)',
     fullSet: true,
     price: null,
-    hidden: true,
-    images: ['/products/seiko-chronograph-verde-ssb481p1.png'],
+    prontaEntrega: true,
+    images: [
+      '/products/seiko-chronograph-verde-ssb481p1.png',
+      '/products/seiko-chronograph-verde-ssb481p1-2.png',
+    ],
     description:
       'Cronógrafo a quartzo com mostrador verde e detalhes prateados sobre bracelete de aço com fecho déployant. Aro tachymeter externo. O verde elegante nessa configuração é uma das propostas mais sofisticadas entre cronógrafos acessíveis.',
     specs: {
@@ -964,6 +976,8 @@ export const products: Product[] = [
 export const visibleProducts = products.filter((p) => !p.hidden)
 
 export const visibleBrandNames = new Set(visibleProducts.map((p) => p.brand.toLowerCase()))
+
+export const prontaEntregaProducts = visibleProducts.filter((p) => p.prontaEntrega)
 
 export function getProductBySlug(slug: string): Product | undefined {
   return visibleProducts.find((p) => p.slug === slug)
