@@ -2,8 +2,8 @@
 // Edite estes valores antes de fazer deploy
 
 export const contact = {
-  whatsapp: '+55 85 8718-3296',
-  whatsappRaw: '558587183296',
+  whatsapp: '+55 85 98503-6218',
+  whatsappRaw: '5585985036218',
   instagram: '@cronosexclusive',
   instagramUrl: 'https://instagram.com/cronosexclusive',
   city: 'Fortaleza, CE',
