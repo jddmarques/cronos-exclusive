@@ -69,7 +69,7 @@ export const products: Product[] = [
     condition: 'Novo (lacrado)',
     fullSet: true,
     price: null,
-    images: ['/products/seiko-5-sports-srpe57k1.png', '/products/seiko-5-sports-srpe57k1-2.png', '/products/seiko-5-sports-srpe57k1-3.png'],
+    images: ['/products/seiko-5-sports-srpe57k1-2.png', '/products/seiko-5-sports-srpe57k1.png', '/products/seiko-5-sports-srpe57k1-3.png'],
     description:
       'Mostrador cinza carvão com ponteiros dourados e bracelê jubilê em aço. Silhueta clássica do 5 Sports com acabamento refinado para uso diário.',
     specs: {
@@ -336,7 +336,7 @@ export const products: Product[] = [
     condition: 'Novo (lacrado)',
     fullSet: true,
     price: null,
-    images: ['/products/citizen-ecodrive-ca7048-08l.png', '/products/citizen-ecodrive-ca7048-08l-2.png'],
+    images: ['/products/citizen-ecodrive-ca7048-08l-2.png', '/products/citizen-ecodrive-ca7048-08l.png'],
     description:
       'Cronógrafo Eco-Drive com caixa escura e mostrador azul sobre pulseira de couro azul. Estética field watch com tecnologia solar — sem bateria, sem preocupação.',
     specs: {
@@ -531,7 +531,7 @@ export const products: Product[] = [
     condition: 'Novo (lacrado)',
     fullSet: true,
     price: null,
-    images: ['/products/citizen-ecodrive-bm7551-50x.png', '/products/citizen-ecodrive-bm7551-50x-2.png'],
+    images: ['/products/citizen-ecodrive-bm7551-50x-2.png', '/products/citizen-ecodrive-bm7551-50x.png'],
     description:
       'Eco-Drive com bezel bússola graduado e mostrador preto. Indicações de Norte/Sul/Leste/Oeste no aro externo. Para quem precisa de funcionalidade real no pulso, sem abrir mão do acabamento.',
     specs: {
@@ -898,8 +898,8 @@ export const products: Product[] = [
     fullSet: true,
     price: null,
     images: [
-      '/products/seiko-5-sports-turquesa-srpd45k1.png',
       '/products/seiko-5-sports-turquesa-srpd45k1-2.png',
+      '/products/seiko-5-sports-turquesa-srpd45k1.png',
       '/products/seiko-5-sports-turquesa-srpd45k1-3.png',
     ],
     description:
@@ -1226,23 +1226,23 @@ export const products: Product[] = [
     slug: 'seiko-prospex-speedtimer-chronograph',
     brand: 'Seiko',
     model: 'Prospex Speedtimer Chronograph',
-    reference: 'SSB429P1',
+    reference: 'SSSC937',
     condition: 'Novo (lacrado)',
     fullSet: true,
     price: null,
     images: [
-      '/products/seiko-prospex-speedtimer-chronograph.png',
-      '/products/seiko-prospex-speedtimer-chronograph-2.png',
       '/products/seiko-prospex-speedtimer-chronograph-3.png',
+      '/products/seiko-prospex-speedtimer-chronograph-2.png',
+      '/products/seiko-prospex-speedtimer-chronograph.png',
     ],
     description:
-      'Cronógrafo da linha Prospex com calibre 8T63 e resistência a 100m. O Speedtimer herda o DNA esportivo da Prospex em formato de cronógrafo urbano — bezel tachymeter, caixa em aço e bracelete integrado.',
+      'Cronógrafo solar da linha Prospex com mostrador ice mint e bezel tachymeter. O Speedtimer é a resposta da Seiko ao cronógrafo esportivo clássico — design direto, leitura rápida e tecnologia solar sem bateria.',
     specs: {
       caixa: 'Aço inoxidável',
-      diametro: '43mm',
+      diametro: '39mm',
       cristal: 'Hardlex',
-      movimento: 'Quartzo (cronógrafo)',
-      calibre: 'Seiko Cal. 8T63',
+      movimento: 'Solar (quartzo cronógrafo)',
+      calibre: 'Seiko Cal. V192',
       resistenciaAgua: '100m / 10 bar',
       pulseira: 'Aço inoxidável',
       funcoes: 'Cronógrafo, taquímetro, data',
@@ -1315,9 +1315,9 @@ export const products: Product[] = [
     fullSet: true,
     price: null,
     images: [
-      '/products/bulova-automatic-open-heart.png',
       '/products/bulova-automatic-open-heart-2.png',
       '/products/bulova-automatic-open-heart-3.png',
+      '/products/bulova-automatic-open-heart.png',
     ],
     description:
       'Automático com janela open-heart que expõe o mecanismo em ação. A complicação mais sedutora para quem quer mostrar o que há dentro do relógio. Fundo e mostrador transparentes, pulseira em couro genuíno.',
