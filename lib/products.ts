@@ -1202,6 +1202,7 @@ export const products: Product[] = [
     condition: 'Como novo',
     fullSet: false,
     price: null,
+    hidden: true,
     prontaEntrega: true,
     images: ['/products/bulova-classic-automatic-preto-dourado.png'],
     description:
