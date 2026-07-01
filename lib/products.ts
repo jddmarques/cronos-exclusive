@@ -45,7 +45,7 @@ export const products: Product[] = [
     condition: 'Novo (lacrado)',
     fullSet: true,
     price: null,
-    images: ['/products/seiko-srpk33k1.jpg'],
+    images: ['/products/seiko-5-sports-srpk33k1.png', '/products/seiko-5-sports-srpk33k1-2.png'],
     description:
       'Diver automático com mostrador verde e bezel preto. O 5 Sports une DNA esportivo e movimento automático em um pacote acessível sem abrir mão de personalidade. Full set com caixa Seiko original.',
     specs: {
@@ -69,7 +69,7 @@ export const products: Product[] = [
     condition: 'Novo (lacrado)',
     fullSet: true,
     price: null,
-    images: ['/products/seiko-srpe57k1.jpg'],
+    images: ['/products/seiko-5-sports-srpe57k1.png', '/products/seiko-5-sports-srpe57k1-2.png', '/products/seiko-5-sports-srpe57k1-3.png'],
     description:
       'Mostrador cinza carvão com ponteiros dourados e bracelê jubilê em aço. Silhueta clássica do 5 Sports com acabamento refinado para uso diário.',
     specs: {
@@ -93,7 +93,7 @@ export const products: Product[] = [
     condition: 'Novo (lacrado)',
     fullSet: true,
     price: null,
-    images: ['/products/seiko-ssb385p1.jpg'],
+    images: ['/products/seiko-chronograph-ssb385p1.png', '/products/seiko-chronograph-ssb385p1-2.png'],
     description:
       'Cronógrafo a quartzo com mostrador verde e taquímetro. Combinação de pulseira em couro marrom e caixa em aço posiciona este Seiko entre os mais versáteis do catálogo — esporte e formalidade no mesmo pulso.',
     specs: {
@@ -117,7 +117,7 @@ export const products: Product[] = [
     condition: 'Novo (lacrado)',
     fullSet: true,
     price: null,
-    images: ['/products/seiko-ssb477p1.jpg'],
+    images: ['/products/seiko-chronograph-ssb477p1.png', '/products/seiko-chronograph-ssb477p1-2.png'],
     description:
       'Mostrador panda — fundo azul com subdials brancos — sobre bracelê de aço. Uma das composições cromáticas mais procuradas em cronógrafos acessíveis. Taquímetro e acabamento polido.',
     specs: {
@@ -141,7 +141,7 @@ export const products: Product[] = [
     condition: 'Novo (lacrado)',
     fullSet: true,
     price: null,
-    images: ['/products/seiko-ssc939p1.jpg'],
+    images: ['/products/seiko-prospex-ssc939p1.png', '/products/seiko-prospex-ssc939p1-2.png'],
     description:
       'Cronógrafo solar da linha Prospex com bezel azul e mostrador cinza grafite. Tecnologia solar Seiko elimina trocas de bateria mantendo a precisão de quartzo. Ideal para uso intenso.',
     specs: {
@@ -165,7 +165,7 @@ export const products: Product[] = [
     condition: 'Novo (lacrado)',
     fullSet: true,
     price: null,
-    images: ['/products/seiko-srpd57k1.jpg'],
+    images: ['/products/seiko-5-sports-srpd57k1.png', '/products/seiko-5-sports-srpd57k1-2.png'],
     description:
       'Versão field do 5 Sports com bezel funcional e mostrador cinza-esverdeado com detalhes em amarelo. Combinação incomum que resulta em alto reconhecimento visual no pulso.',
     specs: {
@@ -189,7 +189,7 @@ export const products: Product[] = [
     condition: 'Novo (lacrado)',
     fullSet: true,
     price: null,
-    images: ['/products/seiko-srph33k1.jpg'],
+    images: ['/products/seiko-5-sports-srph33k1.png', '/products/seiko-5-sports-srph33k1-2.png'],
     description:
       'Field watch automático com caixa em PVD preto e mostrador preto/laranja. Pulseira NATO em nylon reforçado entrega robustez e estilo aventureiro. Um dos formatos mais usados atualmente.',
     specs: {
@@ -213,7 +213,7 @@ export const products: Product[] = [
     condition: 'Novo (lacrado)',
     fullSet: true,
     price: null,
-    images: ['/products/seiko-srk059l.jpg'],
+    images: ['/products/seiko-dress-srk059l.png', '/products/seiko-dress-srk059l-2.png'],
     description:
       'Dress watch de quartzo com mostrador branco e algarismos romanos sobre caixa dourada. Cristal de safira garante resistência a arranhões. Pequeno segundos a 6h confere acabamento clássico sem excessos.',
     specs: {
@@ -240,7 +240,7 @@ export const products: Product[] = [
     condition: 'Novo (lacrado)',
     fullSet: true,
     price: null,
-    images: ['/products/citizen-ca4610-85m.jpg'],
+    images: ['/products/citizen-zenshin-ca4610-85m.png', '/products/citizen-zenshin-ca4610-85m-2.png'],
     description:
       'Cronógrafo Eco-Drive em titânio super-leve com mostrador azul-gelado texturizado. O Zenshin é o topo do que a Citizen oferece em cronógrafos esportivos — tecnologia solar, titânio e design de alto impacto.',
     specs: {
@@ -264,7 +264,7 @@ export const products: Product[] = [
     condition: 'Novo (lacrado)',
     fullSet: true,
     price: null,
-    images: ['/products/citizen-nj0150-56w.jpg'],
+    images: ['/products/citizen-tsuyosa-nj0150-56w.png', '/products/citizen-tsuyosa-nj0150-56w-2.png'],
     description:
       'Automático com mostrador vermelho vivo em caixa de aço polido. O Tsuyosa é a linha que levou o automático da Citizen ao mainstream — silhueta contemporânea inspirada nos grandes dress watches japoneses.',
     specs: {
@@ -288,7 +288,7 @@ export const products: Product[] = [
     condition: 'Novo (lacrado)',
     fullSet: true,
     price: null,
-    images: ['/products/citizen-nj0150-56x.jpg'],
+    images: ['/products/citizen-tsuyosa-nj0150-56x.png', '/products/citizen-tsuyosa-nj0150-56x-2.png'],
     description:
       'Variação do Tsuyosa em aço com mostrador verde. Uma das cores mais procuradas da linha, com bracelê integrado e acabamento polido/escovado que valoriza o pulso.',
     specs: {
@@ -312,7 +312,7 @@ export const products: Product[] = [
     condition: 'Novo (lacrado)',
     fullSet: true,
     price: null,
-    images: ['/products/citizen-nj0152-51x.jpg'],
+    images: ['/products/citizen-tsuyosa-nj0152-51x.png', '/products/citizen-tsuyosa-nj0152-51x-2.png'],
     description:
       'Tsuyosa em versão dourada com mostrador verde — combinação de alto impacto visual. Caixa e bracelê banhados oferecem o visual premium do gold sem o peso de um relógio sólido.',
     specs: {
@@ -336,7 +336,7 @@ export const products: Product[] = [
     condition: 'Novo (lacrado)',
     fullSet: true,
     price: null,
-    images: ['/products/citizen-ca7048-08l.jpg'],
+    images: ['/products/citizen-ecodrive-ca7048-08l.png', '/products/citizen-ecodrive-ca7048-08l-2.png'],
     description:
       'Cronógrafo Eco-Drive com caixa escura e mostrador azul sobre pulseira de couro azul. Estética field watch com tecnologia solar — sem bateria, sem preocupação.',
     specs: {
@@ -360,7 +360,7 @@ export const products: Product[] = [
     condition: 'Novo (lacrado)',
     fullSet: true,
     price: null,
-    images: ['/products/citizen-nk5010-51l.jpg'],
+    images: ['/products/citizen-tsuyosa-40mm-nk5010-51l.png', '/products/citizen-tsuyosa-40mm-nk5010-51l-2.png'],
     description:
       'Tsuyosa de 40mm com mostrador azul texturizado e pequeno segundos a 6h. Tamanho mais compacto e presença discreta no pulso — ideal para quem prefere relógios menores com personalidade.',
     specs: {
@@ -385,7 +385,7 @@ export const products: Product[] = [
     condition: 'Novo (lacrado)',
     fullSet: true,
     price: null,
-    images: ['/products/citizen-nk5010-51x.jpg'],
+    images: ['/products/citizen-tsuyosa-40mm-nk5010-51x.png', '/products/citizen-tsuyosa-40mm-nk5010-51x-2.png'],
     description:
       'Tsuyosa 40mm two-tone com mostrador champagne e bracelê bicolor. Dress watch automático com acabamento impecável — um dos relógios mais elegantes do catálogo.',
     specs: {
@@ -410,7 +410,7 @@ export const products: Product[] = [
     condition: 'Novo (lacrado)',
     fullSet: true,
     price: null,
-    images: ['/products/citizen-aw0130-85l.jpg'],
+    images: ['/products/citizen-zenshin-aw0130-85l.png', '/products/citizen-zenshin-aw0130-85l-2.png'],
     description:
       'Zenshin em titânio ultra-leve com mostrador azul jeans texturizado. Day-date completo e tecnologia Eco-Drive. Caixa com formato arrojado e escovado fino — leveza real no pulso.',
     specs: {
@@ -434,7 +434,7 @@ export const products: Product[] = [
     condition: 'Novo (lacrado)',
     fullSet: true,
     price: null,
-    images: ['/products/citizen-aw0130-85x.jpg'],
+    images: ['/products/citizen-zenshin-aw0130-85x.png', '/products/citizen-zenshin-aw0130-85x-2.png'],
     description:
       'Versão teal-verde do Zenshin em titânio. Mostrador com textura única que muda de tom conforme a incidência de luz. Um dos relógios de maior apelo visual do estoque atual.',
     specs: {
@@ -458,7 +458,7 @@ export const products: Product[] = [
     condition: 'Novo (lacrado)',
     fullSet: true,
     price: null,
-    images: ['/products/citizen-ny0160-66e.jpg'],
+    images: ['/products/citizen-promaster-ny0160-66e.png', '/products/citizen-promaster-ny0160-66e-2.png'],
     description:
       'Diver automático da linha Promaster com mostrador preto e bezel preto/dourado. Certificação ISO 6425 para mergulho profissional. Day-date e movimento automático Cal. 8204 sem bateria.',
     specs: {
@@ -483,7 +483,7 @@ export const products: Product[] = [
     condition: 'Novo (lacrado)',
     fullSet: true,
     price: null,
-    images: ['/products/citizen-aw1740-54l.jpg'],
+    images: ['/products/citizen-ecodrive-aw1740-54l.png', '/products/citizen-ecodrive-aw1740-54l-2.png'],
     description:
       'Eco-Drive com mostrador azul texturizado e bracelê jubilê de cinco elos. Bezel com acabamento facetado e coroa de cristal conferem sofisticação incomum para a categoria. Sem bateria.',
     specs: {
@@ -507,7 +507,7 @@ export const products: Product[] = [
     condition: 'Novo (lacrado)',
     fullSet: true,
     price: null,
-    images: ['/products/citizen-bu0088-51h.jpg'],
+    images: ['/products/citizen-bu0088-51h.png', '/products/citizen-bu0088-51h-2.png'],
     description:
       'Relógio multifunção de alto impacto com mostrador esqueletizado azul/cinza e aro azul. Múltiplos subdials e calendário perpétuo posicionam este modelo no segmento de complicações acessíveis.',
     specs: {
@@ -531,7 +531,7 @@ export const products: Product[] = [
     condition: 'Novo (lacrado)',
     fullSet: true,
     price: null,
-    images: ['/products/citizen-bm7551-50x.jpg'],
+    images: ['/products/citizen-ecodrive-bm7551-50x.png', '/products/citizen-ecodrive-bm7551-50x-2.png'],
     description:
       'Eco-Drive com bezel bússola graduado e mostrador preto. Indicações de Norte/Sul/Leste/Oeste no aro externo. Para quem precisa de funcionalidade real no pulso, sem abrir mão do acabamento.',
     specs: {
@@ -555,7 +555,7 @@ export const products: Product[] = [
     condition: 'Novo (lacrado)',
     fullSet: true,
     price: null,
-    images: ['/products/citizen-bu2021-51l.jpg'],
+    images: ['/products/citizen-ecodrive-bu2021-51l.png', '/products/citizen-ecodrive-bu2021-51l-2.png'],
     description:
       'World time com mostrador azul e detalhes em dourado rosé. Exibe até 26 fusos horários simultaneamente. Uma das complicações mais úteis para quem viaja — tudo legível em um único olhar.',
     specs: {
@@ -579,7 +579,7 @@ export const products: Product[] = [
     condition: 'Novo (lacrado)',
     fullSet: true,
     price: null,
-    images: ['/products/citizen-ca4680-55l.jpg'],
+    images: ['/products/citizen-ecodrive-ca4680-55l.png', '/products/citizen-ecodrive-ca4680-55l-2.png'],
     description:
       'Cronógrafo Eco-Drive com mostrador azul-gelado e caixa em aço/rosé. Combinação de cores delicada com acabamento refinado — opção elegante para quem busca um cronógrafo sem peso esportivo.',
     specs: {
@@ -603,7 +603,7 @@ export const products: Product[] = [
     condition: 'Novo (lacrado)',
     fullSet: true,
     price: null,
-    images: ['/products/citizen-ca0610-52l.jpg'],
+    images: ['/products/citizen-ecodrive-ca0610-52l.png', '/products/citizen-ecodrive-ca0610-52l-2.png'],
     description:
       'Cronógrafo Eco-Drive clássico com mostrador azul e caixa em aço polido. Três subdials limpos e leitura direta. Versão clean do cronógrafo solar — sem excessos, sem comprometer a função.',
     specs: {
@@ -627,7 +627,7 @@ export const products: Product[] = [
     condition: 'Novo (lacrado)',
     fullSet: true,
     price: null,
-    images: ['/products/citizen-ca4507-84e.jpg'],
+    images: ['/products/citizen-ecodrive-ca4507-84e.png', '/products/citizen-ecodrive-ca4507-84e-2.png'],
     description:
       'Cronógrafo Eco-Drive com escala pulsômetro no aro e mostrador creme sobre caixa gunmetal. Referência médica e estética vintage em um relógio solar moderno. Para quem aprecia raridade de uso.',
     specs: {
@@ -683,7 +683,6 @@ export const products: Product[] = [
     images: [
       '/products/orient-bambino-automatico.png',
       '/products/orient-bambino-automatico-2.png',
-      '/products/orient-bambino-automatico-3.png',
     ],
     description:
       'Dress watch automático da linha Bambino com mostrador azul escuro e caixa dourada. Pulseira em couro azul marinho, com o charmoso indicador sol e lua (dia/noite) e dia da semana. Uma das poucas complicações românticas disponíveis nessa faixa de preço.',
@@ -770,7 +769,6 @@ export const products: Product[] = [
     images: [
       '/products/seiko-5-sports-champanhe-nato.png',
       '/products/seiko-5-sports-champanhe-nato-2.png',
-      '/products/seiko-5-sports-champanhe-nato-3.png',
     ],
     description:
       'Field watch automático com mostrador champanhe e pulseira NATO em nylon areia. Leitura limpa com numerais arábicos e calendário dia/data. Combinação clássica de campo que nunca sai de moda.',
@@ -899,7 +897,11 @@ export const products: Product[] = [
     condition: 'Novo (lacrado)',
     fullSet: true,
     price: null,
-    images: ['/products/seiko-5-sports-turquesa-srpd45k1.png'],
+    images: [
+      '/products/seiko-5-sports-turquesa-srpd45k1.png',
+      '/products/seiko-5-sports-turquesa-srpd45k1-2.png',
+      '/products/seiko-5-sports-turquesa-srpd45k1-3.png',
+    ],
     description:
       'Diver automático com mostrador turquesa vibrante e calendário integrado multilíngue. Bracelete Oyster e bezel unidirecional. Uma das colorações mais reconhecíveis da linha 5 Sports — impossível passar despercebido.',
     specs: {
@@ -986,7 +988,10 @@ export const products: Product[] = [
     fullSet: false,
     price: null,
     prontaEntrega: true,
-    images: ['/products/tissot-prx-powermatic-80-preto.png'],
+    images: [
+      '/products/tissot-prx-powermatic-80-preto.png',
+      '/products/tissot-prx-powermatic-80-preto-2.png',
+    ],
     description:
       'Versão automática do PRX, com mostrador preto texturizado em waffle e calibre Powermatic 80 — 80 horas de reserva de marcha. Caixa em aço 316L com pulseira integrada, cristal de safira com antirreflexo e fundo transparente que expõe o movimento. O design integrado dos anos 70 com a robustez de um automático suíço de verdade.',
     specs: {
@@ -1037,7 +1042,10 @@ export const products: Product[] = [
     fullSet: false,
     price: null,
     prontaEntrega: true,
-    images: ['/products/citizen-promaster-diver-ecodrive-azul.png'],
+    images: [
+      '/products/citizen-promaster-diver-ecodrive-azul.png',
+      '/products/citizen-promaster-diver-ecodrive-azul-2.png',
+    ],
     description:
       'Diver com certificação ISO, mostrador azul e pulseira de poliuretano na mesma cor — visual esportivo e uso real em água sem complicação. Tecnologia Eco-Drive elimina troca de bateria: carrega com qualquer fonte de luz. Bezel unidirecional, data e resistência a 200m.',
     specs: {
@@ -1119,7 +1127,6 @@ export const products: Product[] = [
     images: [
       '/products/seiko-5-automatic-azul-7s26.png',
       '/products/seiko-5-automatic-azul-7s26-2.png',
-      '/products/seiko-5-automatic-azul-7s26-3.png',
     ],
     description:
       'O clássico Seiko 5 em mostrador azul, calibre 7S26 de 21 jewels — sem corda manual ou hacking, no espírito original da linha. Day-date às 3h e fundo transparente exibindo o movimento. Pulseira e caixa em aço. A entrada mais tradicional para quem quer um automático Seiko no pulso.',
@@ -1210,6 +1217,151 @@ export const products: Product[] = [
       funcoes: 'Hora, minuto, segundo, data',
     },
     featured: false,
+  },
+
+  // ─── NOVOS MODELOS ────────────────────────────────────────────────────────────
+
+  {
+    id: '47',
+    slug: 'seiko-prospex-speedtimer-chronograph',
+    brand: 'Seiko',
+    model: 'Prospex Speedtimer Chronograph',
+    reference: 'SSB429P1',
+    condition: 'Novo (lacrado)',
+    fullSet: true,
+    price: null,
+    images: [
+      '/products/seiko-prospex-speedtimer-chronograph.png',
+      '/products/seiko-prospex-speedtimer-chronograph-2.png',
+      '/products/seiko-prospex-speedtimer-chronograph-3.png',
+    ],
+    description:
+      'Cronógrafo da linha Prospex com calibre 8T63 e resistência a 100m. O Speedtimer herda o DNA esportivo da Prospex em formato de cronógrafo urbano — bezel tachymeter, caixa em aço e bracelete integrado.',
+    specs: {
+      caixa: 'Aço inoxidável',
+      diametro: '43mm',
+      cristal: 'Hardlex',
+      movimento: 'Quartzo (cronógrafo)',
+      calibre: 'Seiko Cal. 8T63',
+      resistenciaAgua: '100m / 10 bar',
+      pulseira: 'Aço inoxidável',
+      funcoes: 'Cronógrafo, taquímetro, data',
+    },
+    featured: false,
+  },
+  {
+    id: '48',
+    slug: 'tag-heuer-formula-1',
+    brand: 'TAG Heuer',
+    model: 'Formula 1 Quartz',
+    reference: 'WAZ1113.BA0875',
+    condition: 'Novo (lacrado)',
+    fullSet: true,
+    price: null,
+    images: [
+      '/products/tag-heuer-formula-1.png',
+      '/products/tag-heuer-formula-1-2.png',
+      '/products/tag-heuer-formula-1-3.png',
+    ],
+    description:
+      'O Formula 1 é o relógio esportivo mais icônico da TAG Heuer — design herdado diretamente das corridas dos anos 80 com bezel bicolor vermelho/preto e mostrador creme. Swiss Made, aço inoxidável e data às 3h.',
+    specs: {
+      caixa: 'Aço inoxidável',
+      diametro: '43mm',
+      cristal: 'Safira',
+      movimento: 'Quartzo suíço',
+      calibre: 'TAG Heuer Cal. 5',
+      resistenciaAgua: '200m / 20 bar',
+      pulseira: 'Aço inoxidável',
+      funcoes: 'Hora, minuto, segundo, data, bezel unidirecional',
+    },
+    featured: true,
+  },
+  {
+    id: '49',
+    slug: 'tissot-seastar-azul',
+    brand: 'Tissot',
+    model: 'T-Sport Seastar 1000 Quartz',
+    reference: 'T120.410.11.041.00',
+    condition: 'Novo (lacrado)',
+    fullSet: true,
+    price: 4000,
+    prontaEntrega: true,
+    images: [
+      '/products/tissot-seastar-azul.png',
+      '/products/tissot-seastar-azul-2.png',
+    ],
+    description:
+      'Diver suíço com mostrador e bezel azuis, resistente a 300m. O Seastar 1000 é a entrada da Tissot no mundo dos divers sérios — construção robusta, safira com antirreflexo e bezel unidirecional. Swiss Made.',
+    specs: {
+      caixa: 'Aço inoxidável',
+      diametro: '43mm',
+      cristal: 'Safira com antirreflexo',
+      movimento: 'Quartzo suíço',
+      calibre: 'Tissot Cal. F06.115',
+      resistenciaAgua: '300m / 30 bar',
+      pulseira: 'Aço inoxidável',
+      funcoes: 'Hora, data, bezel unidirecional',
+    },
+    featured: true,
+  },
+  {
+    id: '50',
+    slug: 'bulova-automatic-open-heart',
+    brand: 'Bulova',
+    model: 'Classic Automatic Open Heart',
+    reference: '96A2001',
+    condition: 'Novo (lacrado)',
+    fullSet: true,
+    price: null,
+    images: [
+      '/products/bulova-automatic-open-heart.png',
+      '/products/bulova-automatic-open-heart-2.png',
+      '/products/bulova-automatic-open-heart-3.png',
+    ],
+    description:
+      'Automático com janela open-heart que expõe o mecanismo em ação. A complicação mais sedutora para quem quer mostrar o que há dentro do relógio. Fundo e mostrador transparentes, pulseira em couro genuíno.',
+    specs: {
+      caixa: 'Aço inoxidável',
+      diametro: '42mm',
+      cristal: 'Vidro mineral',
+      movimento: 'Automático',
+      calibre: 'Miyota 8215 (21 jewels)',
+      reservaDeMarcha: '42 horas',
+      resistenciaAgua: '30m (splash)',
+      pulseira: 'Couro legítimo preto',
+      funcoes: 'Hora, minuto, segundo, janela open-heart',
+    },
+    featured: false,
+  },
+  {
+    id: '51',
+    slug: 'bulova-frank-sinatra-fly-me-to-the-moon',
+    brand: 'Bulova',
+    model: 'Frank Sinatra "Fly Me to the Moon"',
+    reference: '96B251',
+    condition: 'Novo (lacrado)',
+    fullSet: true,
+    price: 3499,
+    prontaEntrega: true,
+    images: [
+      '/products/bulova-frank-sinatra-fly-me-to-the-moon.png',
+      '/products/bulova-frank-sinatra-fly-me-to-the-moon-2.png',
+    ],
+    description:
+      'Edição especial homenageando Frank Sinatra com mostrador preto e aro interno champagne — estética inspirada no Rat Pack dos anos 60. Automático com data. Peça de colecionador para quem quer sair do óbvio.',
+    specs: {
+      caixa: 'Aço inoxidável',
+      diametro: '43mm',
+      cristal: 'Vidro mineral',
+      movimento: 'Automático',
+      calibre: 'Miyota 8215 (21 jewels)',
+      reservaDeMarcha: '42 horas',
+      resistenciaAgua: '30m (splash)',
+      pulseira: 'Couro legítimo preto',
+      funcoes: 'Hora, minuto, segundo, data',
+    },
+    featured: true,
   },
 ]
 
