@@ -1286,7 +1286,7 @@ export const products: Product[] = [
     reference: 'T120.410.11.041.00',
     condition: 'Novo (lacrado)',
     fullSet: true,
-    price: 4000,
+    price: null,
     prontaEntrega: true,
     images: [
       '/products/tissot-seastar-azul.png',
@@ -1343,7 +1343,7 @@ export const products: Product[] = [
     reference: '96B251',
     condition: 'Novo (lacrado)',
     fullSet: true,
-    price: 3499,
+    price: null,
     prontaEntrega: true,
     images: [
       '/products/bulova-frank-sinatra-fly-me-to-the-moon.png',
