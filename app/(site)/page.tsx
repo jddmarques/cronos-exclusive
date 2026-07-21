@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Hero from '@/components/home/Hero'
 import FaixaMarcas from '@/components/home/FaixaMarcas'
 import Destaques from '@/components/home/Destaques'
+import AcoesDoMes from '@/components/home/AcoesDoMes'
 import SobreBloco from '@/components/home/SobreBloco'
 
 export const metadata: Metadata = {
@@ -22,6 +23,7 @@ export default function HomePage() {
       <Hero />
       <FaixaMarcas />
       <Destaques />
+      <AcoesDoMes />
       <SobreBloco />
     </>
   )
